@@ -1,0 +1,26 @@
+nav {
+    background-color: rgb(81, 137, 241);
+    color: white;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between; /*Elemnte in NAV wird getrennt*/
+    margin-bottom: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li {
+    list-style: none; /*keine Punkte vor ListElement*/
+}
+nav li a {
+    color: white;
+    font-weight: bold;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+nav li a:hover {
+    color: darkmagenta;
+    text-decoration: none;
+}
